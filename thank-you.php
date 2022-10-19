@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://enterprise.timespro.com/campaign/thankyou-assets/style-thankyou.css">
+	<link rel="icon" type="image/png" href="https://enterprise.timespro.com/thankyou-assets/images/checkmark.png">
+	<title>TimesPro - Thank you </title>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KN29B4N');
+	</script>
+</head>
+<body>
+
+	<div class="main_div_banner">
+			<div class="logo">
+				<a href="https://enterprise.timespro.com/"><img src="https://enterprise.timespro.com/campaign/thankyou-assets/images/tpl_logo1.png"></a>
+			</div>
+			<div class="content_area">
+					<div>
+						<p><a href="https://enterprise.timespro.com/">Home  » </a> <a href="index.php">Industry Demand Programmes  » </a>Thank you</p>
+					</div>
+					<div>
+						<h1>Thank you</h1>
+						<img src="https://enterprise.timespro.com/campaign/thankyou-assets/images/checkmark-white.png"  width="50px">
+					</div>
+					<p>Our advisors will connect with you shortly.</p>
+
+			</div>
+	</div>
+</body>
+</html>
