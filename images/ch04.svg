@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138" height="138" viewBox="0 0 138 138">
+  <defs>
+    <filter id="Ellipse_155" x="0" y="0" width="138" height="138" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Path_95483" data-name="Path 95483" d="M378.476,309.881a52.74,52.74,0,1,0,52.739-52.739,52.74,52.74,0,0,0-52.739,52.739" transform="translate(-378.476 -257.142)" fill="#e0e0e0"/>
+    </clipPath>
+  </defs>
+  <g id="Group_10047" data-name="Group 10047" transform="translate(-315 -1703)">
+    <g id="Group_10006" data-name="Group 10006" transform="translate(-131 -60)">
+      <g transform="matrix(1, 0, 0, 1, 446, 1763)" filter="url(#Ellipse_155)">
+        <circle id="Ellipse_155-2" data-name="Ellipse 155" cx="60" cy="60" r="60" transform="translate(6 9)" fill="#fff"/>
+      </g>
+      <g id="Group_10018" data-name="Group 10018" transform="translate(-201.561 231.98)">
+        <path id="Path_95477" data-name="Path 95477" d="M483.956,309.882a52.74,52.74,0,1,1-52.742-52.74,52.742,52.742,0,0,1,52.742,52.74" transform="translate(282.345 1290.137)" fill="#eb484d"/>
+        <g id="Group_9893" data-name="Group 9893" transform="translate(660.821 1547.279)" clip-path="url(#clip-path)">
+          <path id="Path_95478" data-name="Path 95478" d="M456.607,296.21a31.315,31.315,0,1,1-31.314-31.317,31.314,31.314,0,0,1,31.314,31.317" transform="translate(-370.904 -253.356)" fill="#e0e0e0"/>
+          <rect id="Rectangle_18017" data-name="Rectangle 18017" width="16.48" height="24.722" transform="translate(23.074 42.851)" fill="#e0e0e0"/>
+          <path id="Path_95479" data-name="Path 95479" d="M399.979,309.571H388.442l8.24-21.426Z" transform="translate(-373.608 -241.999)" fill="#e0e0e0"/>
+          <path id="Path_95480" data-name="Path 95480" d="M436,321.753H395.626l-1.648-18.131,46.148-3.3Z" transform="translate(-370.904 -236.05)" fill="#e0e0e0"/>
+          <path id="Path_95481" data-name="Path 95481" d="M445.159,338.258,405.6,348.148V317.657l33.786-14.009Z" transform="translate(-365.226 -234.427)" fill="#e0e0e0"/>
+          <path id="Path_95482" data-name="Path 95482" d="M420.552,319.8l12.362-4.976,9.066-22.251-21.428,3.3Z" transform="translate(-357.924 -239.835)" fill="#e0e0e0"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_9893-2" data-name="Group 9893" transform="translate(328.26 1719.259)" clip-path="url(#clip-path)">
+      <path id="Path_95478-2" data-name="Path 95478" d="M456.607,296.21a31.315,31.315,0,1,1-31.314-31.317,31.314,31.314,0,0,1,31.314,31.317" transform="translate(-370.904 -253.356)" fill="#e0e0e0"/>
+      <rect id="Rectangle_18017-2" data-name="Rectangle 18017" width="16.48" height="24.722" transform="translate(23.074 42.851)" fill="#e0e0e0"/>
+      <path id="Path_95479-2" data-name="Path 95479" d="M399.979,309.571H388.442l8.24-21.426Z" transform="translate(-373.608 -241.999)" fill="#e0e0e0"/>
+      <path id="Path_95480-2" data-name="Path 95480" d="M436,321.753H395.626l-1.648-18.131,46.148-3.3Z" transform="translate(-370.904 -236.05)" fill="#e0e0e0"/>
+      <path id="Path_95481-2" data-name="Path 95481" d="M445.159,338.258,405.6,348.148V317.657l33.786-14.009Z" transform="translate(-365.226 -234.427)" fill="#e0e0e0"/>
+      <path id="Path_95482-2" data-name="Path 95482" d="M420.552,319.8l12.362-4.976,9.066-22.251-21.428,3.3Z" transform="translate(-357.924 -239.835)" fill="#e0e0e0"/>
+    </g>
+    <g id="noun-heart-17453" transform="translate(-2192 150.742)">
+      <path id="Path_96250" data-name="Path 96250" d="M92.731,35.258a8.353,8.353,0,0,0-6.637,3.079,8.351,8.351,0,0,0-6.637-3.079C73.8,35.258,70,40.5,70,45.393c0,7.125,13.686,16.674,15.247,17.74a1.506,1.506,0,0,0,1.7,0c1.56-1.065,15.247-10.614,15.247-17.74C102.189,40.5,98.388,35.258,92.731,35.258Z" transform="translate(2487 1566)" fill="#ba2226"/>
+    </g>
+  </g>
+</svg>
