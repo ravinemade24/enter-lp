@@ -35,7 +35,7 @@ $(".form99").on("submit", function() {
     
       
       
-              var brochure_link = $(this).closest("form").find("input[name='brochure']").val();
+        var brochure_link = $(this).closest("form").find("input[name='brochure']").val();
         if(brochure_link!='')
         {
           alert("Brochure will be downloaded shortly");
@@ -92,24 +92,64 @@ var settings = {
   centerPadding: '40px',
 };
 
-function setSlideVisibility() {
-  //Find the visible slides i.e. where aria-hidden="false"
-  var visibleSlides = $carousel.find('.slick-slideshow__slide[aria-hidden="false"]');
-  //Make sure all of the visible slides have an opacity of 1
-  $(visibleSlides).each(function() {
-    $(this).css('opacity', 1);
+// function setSlideVisibility() {
+//   //Find the visible slides i.e. where aria-hidden="false"
+//   var visibleSlides = $carousel.find('.slick-slideshow__slide[aria-hidden="false"]');
+//   //Make sure all of the visible slides have an opacity of 1
+//   $(visibleSlides).each(function() {
+//     $(this).css('opacity', 1);
+//   });
+
+//   //Set the opacity of the first and last partial slides.
+//   $(visibleSlides).first().prev().css('opacity', 0);
+// }
+
+// $carousel.slick(settings);
+// $carousel.slick('slickGoTo', 1);
+// setSlideVisibility();
+
+// $carousel.on('afterChange', function() {
+//   setSlideVisibility();
+// });
+
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  
+  spaceBetween: 0,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 0,
+      
+    },
+    991: {
+      slidesPerView: 3,
+      spaceBetween: 0,
+      grid: {
+        rows: 2,
+      },
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 0,
+      grid: {
+      rows: 2,
+      },
+    },
+    },
   });
 
-  //Set the opacity of the first and last partial slides.
-  $(visibleSlides).first().prev().css('opacity', 0);
-}
 
-$carousel.slick(settings);
-$carousel.slick('slickGoTo', 1);
-setSlideVisibility();
-
-$carousel.on('afterChange', function() {
-  setSlideVisibility();
+$('.accordian_head').click(function(){
+  $(this).toggleClass('active');
+  $(this).parent('.accordian_box').siblings('.accordian_box').children('.accordian_head').removeClass('active');
+  $(this).next('.accordian_content').slideToggle('fast');
+  $(this).parent('.accordian_box').siblings('.accordian_box').children('.accordian_content').slideUp('fast');
 });
 
 
